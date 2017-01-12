@@ -1,9 +1,14 @@
+/*
+Typografie na miru pismu
+========================
+*/
+
 body {
   font-family: 'PT Sans', sans-serif;
-  color: #063747;
 }
 
 
 h1, h2, h3 {
   font-family: 'Yeseva One', cursive;
+  line-height: 1.2;
 }
