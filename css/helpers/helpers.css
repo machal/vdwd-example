@@ -1,0 +1,15 @@
+
+/*
+Element jen pro zobrazeni pri ovladani klavesnici atd.
+------------------------------------------------------
+*/
+
+.focus-only {
+    position: absolute;
+    top: 0;
+    right: 100%; 
+}
+
+.focus-only:focus {
+    right: auto;
+}
