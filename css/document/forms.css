@@ -5,7 +5,8 @@ Zakladni stylovani pro formulare
 
 input,
 select,
-textarea {
+textarea,
+button {
   display: inline-block;
   padding: 0.25em;
   background: transparent;
@@ -24,3 +25,9 @@ textarea::-moz-focus-inner {
   padding: 0;
 }
 
+button,
+input[type=submit],
+input[type=reset] {
+  background: #063747; /* TODO promenna */
+  color: white;
+}

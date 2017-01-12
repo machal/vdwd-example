@@ -6,7 +6,8 @@ Typografie na miru pismu
 body,
 input,
 select,
-textarea {
+textarea,
+button {
   font-family: 'PT Sans', sans-serif;
 }
 
