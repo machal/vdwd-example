@@ -1,10 +1,26 @@
-/* Vse je odsazeno zezdola */
+/* 
+Vse je odsazeno zezdola 
+------------------------
+*/
 
-h1, h2, h3, h4, h5, h6,
+
+/*
+Blokove prvky odsazeny o jednu font-size
+*/
+
 p, ul, ol, dl, table,
 blockquote, pre, hr {
   margin-top: 0;
   margin-bottom: 1rem;
+}
+
+/*
+Nadpisy odsazeny o pulku font-size
+*/
+
+h1, h2, h3, h4, h5, h6 {
+	margin-top: 0;
+	margin-bottom: .5rem;	
 }
 
 dd {
@@ -15,13 +31,12 @@ dd {
 UL/OL
 -----
 
-Hezci by bylo 1rem, ale Safari ma velkou mezeru mezi odrazkou
-a textem. 
+Nastaveno podle dvoucifernych cisel v <ul>
 */
 
-ul,
+ul, 
 ol {
-  padding-left: 1.5rem;
+  padding-left: 1.75rem;
 }
 
 /*
