@@ -1,0 +1,45 @@
+/* Vse je odsazeno zezdola */
+
+h1, h2, h3, h4, h5, h6,
+p, ul, ol, dl, table,
+blockquote, pre, hr {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+dd {
+  margin-left: 0
+}
+
+/*
+UL/OL
+-----
+
+Hezci by bylo 1rem, ale Safari ma velkou mezeru mezi odrazkou
+a textem. 
+*/
+
+ul,
+ol {
+  padding-left: 1.5rem;
+}
+
+/*
+Zanorene seznamy se neodsazuji
+*/
+
+ul ul,
+ul ol,
+ol ul,
+ol ol {
+  margin-bottom: 0;
+}
+
+fieldset {
+  border: 0;
+}
+
+legend {
+  padding: 0 .5rem;
+}
+
