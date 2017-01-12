@@ -4,5 +4,6 @@
 @import 'document/typography.css';
 @import 'document/colors.css';
 @import 'document/rhythm.css';
+@import 'document/scale.css';
 
 @import 'helpers/helpers.css';
