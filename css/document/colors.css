@@ -1,0 +1,13 @@
+body {
+  color: #063747;
+}
+
+a {
+  color: #063747;
+}
+
+a:hover,
+a:focus,
+a:active {
+  color: #EF476F;
+}
