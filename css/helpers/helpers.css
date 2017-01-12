@@ -13,3 +13,24 @@ Element jen pro zobrazeni pri ovladani klavesnici atd.
 .focus-only:focus {
     right: auto;
 }
+
+
+/* 
+Zastupne plochy pro obrazky
+---------------------------
+*/
+
+.temp-images {
+  position: relative;
+  background: #e8e8e8;
+  padding-bottom: 75%;
+}
+
+.temp-images i {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
