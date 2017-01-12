@@ -2,6 +2,8 @@
 
 @import 'vendor/normalize.css';
 
+@import 'core/variables.css';
+
 @import 'document/colors.css';
 @import 'document/rhythm.css';
 @import 'document/scale.css';

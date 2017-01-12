@@ -2,15 +2,15 @@ body,
 input,
 select,
 textarea {
-  color: #063747;
+  color: var(--color-text);
 }
 
 a {
-  color: #063747;
+  color: var(--color-text);
 }
 
 a:hover,
 a:focus,
 a:active {
-  color: #EF476F;
+  color: var(--color-alpha);
 }
