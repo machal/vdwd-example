@@ -1,0 +1,28 @@
+/*
+Dalsi nastaveni zakladnich html prvku
+=====================================
+*/
+
+/*
+Blokova citace
+--------------
+
+1) Pozice zleva stejne jako ul/ol
+*/
+
+blockquote {
+  border-left: .25rem solid lightgrey;
+  padding-left: 1.5rem; /* 1) */
+  margin-left: 0;
+}
+
+/*
+Seznam definic
+--------------
+
+1) Pozice zleva stejne jako ul/ol
+*/
+
+dd {
+  padding-left: 1.75rem; /* 1) */
+}
