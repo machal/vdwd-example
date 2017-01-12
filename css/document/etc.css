@@ -26,3 +26,14 @@ Seznam definic
 dd {
   padding-left: 1.75rem; /* 1) */
 }
+
+
+/*
+Vodorovny oddelovac
+-------------------
+*/
+
+hr {
+  border-style: solid;
+  opacity: .25;
+}
