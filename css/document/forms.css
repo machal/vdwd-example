@@ -1,0 +1,26 @@
+/*
+Zakladni stylovani pro formulare
+================================
+*/
+
+input,
+select,
+textarea {
+  display: inline-block;
+  padding: 0.25em;
+  background: transparent;
+  border: 2px solid #063747; /* TODO promenna */
+  border-radius: .25em;
+}
+
+input[type=text]::-moz-focus-inner,
+input[type=email]::-moz-focus-inner,
+input[type=tel]::-moz-focus-inner,
+input[type=url]::-moz-focus-inner,
+input[type=search]::-moz-focus-inner,
+input[type=number]::-moz-focus-inner,
+select::-moz-focus-inner,
+textarea::-moz-focus-inner {
+  padding: 0;
+}
+

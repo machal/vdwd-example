@@ -1,4 +1,7 @@
-body {
+body,
+input,
+select,
+textarea {
   color: #063747;
 }
 

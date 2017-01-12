@@ -3,7 +3,10 @@ Typografie na miru pismu
 ========================
 */
 
-body {
+body,
+input,
+select,
+textarea {
   font-family: 'PT Sans', sans-serif;
 }
 
