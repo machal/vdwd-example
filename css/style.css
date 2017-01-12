@@ -1,1 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700|Yeseva+One&subset=latin-ext');
+
 @import 'vendor/normalize.css';
+@import 'document/typography.css';
