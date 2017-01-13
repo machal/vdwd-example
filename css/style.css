@@ -12,6 +12,7 @@
 @import 'document/table.css';
 @import 'document/forms.css';
 @import 'document/etc.css';
+@import 'document/document.css';
 
 
 @import 'helpers/helpers.css';
