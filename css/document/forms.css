@@ -6,13 +6,6 @@ TODO jednoradkove prvky a tlacitka nejsou na svisly stred.
 
 */
 
-input,
-select,
-textarea,
-button {
-  --input-padding: .25em;
-  --input-border: 2px;
-}
 
 input,
 select,

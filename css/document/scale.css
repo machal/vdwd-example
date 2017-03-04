@@ -36,4 +36,5 @@ h5,
 small,
 .text-small {
 	font-size: 0.8rem;
+  line-height: 1.3;
 }
