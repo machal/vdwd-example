@@ -32,8 +32,7 @@ Primarni vyzva k akci
 */
 
 .button-primary {
-  background: var(--color-text);
-  color: white;
+  background: var(--color-alpha);
   border: none;
   padding: calc(
     var(--input-padding)

@@ -1,0 +1,37 @@
+/*
+UI komponenta pro pridani zbozi do kosiku
+=========================================
+*/
+
+.add-to-card {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.add-to-card-text {
+  flex: 2 2 15em;
+}
+
+.add-to-card-form {
+  flex: 1 1 12em;
+}
+
+
+/*
+Layout casti s tlacitkem
+------------------------
+*/
+
+.add-to-card-form {
+  display: flex;
+  justify-content: center;
+}
+
+.add-to-card-input {
+
+}
+
+.add-to-card-button {
+
+}
