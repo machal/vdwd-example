@@ -4,12 +4,16 @@ Logo ForestKid.cz
 */
 
 
+
+.logo { }
+
 /*
 Pruzne chovani SVG v IE vyzaduje kontejner
 ------------------------------------------
 */
 
-.logo {
+
+.logo-container {
   position: relative;
   width: 100%;
   height: 0;

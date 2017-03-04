@@ -1,0 +1,59 @@
+/*
+Rozvrzeni stranky
+=================
+
+.container
+  .header
+  .layout-container
+    main.layout-main (text)
+    aside.layout-side (fotky)
+
+*/
+
+body {
+  background: var(--color-grey-e);
+}
+
+.container {
+  max-width: none;
+}
+
+
+/*
+Mensi displeje
+--------------
+
+1) Menime poradi. Fotky jsou prvni
+*/
+
+.layout-container {
+  display: flex;
+  flex-direction: column-reverse; /* 1) */
+  background: white;
+  padding: 1.5rem;
+  border-radius: var(--border-radius);
+}
+
+
+/*
+Vetsi displeje
+--------------
+
+Fotky napravo, obsah nalevo.
+*/
+
+@media only screen and (min-width: 50em) {
+
+  .layout-container {
+    flex-direction: row-reverse;
+  }
+
+  .layout-main {
+    flex: 1;
+  }
+
+  .layout-side {
+    flex: 1;
+  }
+
+}

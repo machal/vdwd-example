@@ -27,3 +27,5 @@
 @import 'ui/logo.css';
 @import 'ui/media-object.css';
 @import 'ui/variants.css';
+
+@import 'layout/layout.css';
