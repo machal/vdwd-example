@@ -42,6 +42,13 @@
   --color-grey-e: #eee;
 
   /*
+  Vychozi zakulaceni rohu
+  -----------------------
+  */
+
+  --border-radius: .25em;
+
+  /*
   Rozmery formularovych prvku
   ---------------------------
   */

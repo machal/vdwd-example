@@ -15,7 +15,7 @@ button {
   padding: var(--input-padding);
   background: transparent;
   border: var(--input-border) solid var(--color-text);
-  border-radius: .25em;
+  border-radius: var(--border-radius);
 }
 
 input::-moz-focus-inner,

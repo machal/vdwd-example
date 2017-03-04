@@ -19,6 +19,7 @@
 @import 'media/rwd-object.css';
 @import 'media/rwd-table.css';
 
+@import 'ui/box.css';
 @import 'ui/button.css';
 @import 'ui/card.css';
 @import 'ui/gallery.css';
