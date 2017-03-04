@@ -109,6 +109,13 @@ body:hover .sr-only a, body:hover .sr-only input, body:hover .sr-only button { d
 .b-0 { border: 0; }
 
 
+/* Text Align */
+
+.ta-r { text-align: right; }
+.ta-l { text-align: left; }
+.ta-c { text-align: center; }
+
+
 /* Print */
 
 .hidden-print {
@@ -149,6 +156,12 @@ body:hover .sr-only a, body:hover .sr-only input, body:hover .sr-only button { d
   margin-left: auto;
   padding-right: 2em;
   padding-left: 2em;
+}
+
+.maxw-50perc {
+  max-width: 50%;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 /* etc. */
