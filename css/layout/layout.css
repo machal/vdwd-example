@@ -3,10 +3,13 @@ Rozvrzeni stranky
 =================
 
 .container
-  .header
+  header
+    .logo
   .layout-container
-    main.layout-main (text)
-    aside.layout-side (fotky)
+    .layout-heading (nadpis)
+    .layout-main
+      .layout-text (text)
+      .layout-photos (fotky)
 
 */
 
@@ -22,13 +25,9 @@ body {
 /*
 Mensi displeje
 --------------
-
-1) Menime poradi. Fotky jsou prvni
 */
 
 .layout-container {
-  display: flex;
-  flex-direction: column-reverse; /* 1) */
   background: white;
   padding: 1.5rem;
   border-radius: var(--border-radius);
@@ -44,16 +43,16 @@ Fotky napravo, obsah nalevo.
 
 @media only screen and (min-width: 50em) {
 
-  .layout-container {
-    flex-direction: row-reverse;
-  }
-
   .layout-main {
-    flex: 1;
+    display: flex;
   }
 
-  .layout-side {
-    flex: 1;
+  .layout-text {
+    flex: 1 1 50%;
+  }
+
+  .layout-photos {
+    flex: 1 1 50%;
   }
 
 }
