@@ -20,5 +20,6 @@
 @import 'media/rwd-object.css';
 @import 'media/rwd-table.css';
 
-@import 'ui/logo.css';
 @import 'ui/gallery.css';
+@import 'ui/logo.css';
+@import 'ui/variants.css';
