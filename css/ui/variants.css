@@ -21,13 +21,18 @@ Zakladni stylovani
   white-space: nowrap;
 }
 
+/* Vzhled hlavicky tabulek */
+
 .variants-table th {
   font-weight: normal;
   color: var(--color-text-secondary);
 }
 
+/* Vzhled radku po najeti mysi */
+
 .variants-table tr:hover td {
   background: var(--color-grey-e);
+  cursor: pointer;
 }
 
 /*
