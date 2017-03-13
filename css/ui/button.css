@@ -13,7 +13,7 @@ Stejne jako <input> a <button>
   display: inline-block;
   padding: var(--input-padding);
   background: transparent;
-  color: white;
+  color: var(--color-text);
   border: var(--input-border) solid var(--color-text);
   border-radius: var(--border-radius);
   text-decoration: none;
@@ -32,6 +32,7 @@ Primarni vyzva k akci
 
 .button-primary {
   background: var(--color-alpha);
+  color: white;
   border: none;
   padding:
     calc(
