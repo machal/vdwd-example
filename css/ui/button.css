@@ -7,14 +7,13 @@ UI komponenta Tlacitko
 Zakladni vzhled
 ---------------
 Stejne jako <input> a <button>
-TODO: mela by byt stylovana komponenta, forms.css bych zrusil
-viz pretezovani uz nastylovanych vychozich prvku
 */
 
 .button {
   display: inline-block;
   padding: var(--input-padding);
   background: transparent;
+  color: white;
   border: var(--input-border) solid var(--color-text);
   border-radius: var(--border-radius);
   text-decoration: none;
@@ -34,9 +33,13 @@ Primarni vyzva k akci
 .button-primary {
   background: var(--color-alpha);
   border: none;
-  padding: calc(
-    var(--input-padding)
-    + var(--input-border)
-  );
+  padding:
+    calc(
+      var(--input-padding)
+      + var(--input-border)
+    )
+    calc(
+      2 * var(--input-padding)
+    );
 }
 

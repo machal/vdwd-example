@@ -9,8 +9,7 @@ TODO jednoradkove prvky a tlacitka nejsou na svisly stred.
 
 input,
 select,
-textarea,
-button {
+textarea {
   display: inline-block;
   padding: var(--input-padding);
   background: transparent;
@@ -20,30 +19,7 @@ button {
 
 input::-moz-focus-inner,
 select::-moz-focus-inner,
-textarea::-moz-focus-inner,
-button::-moz-focus-inner {
+textarea::-moz-focus-inner {
   padding: 0;
 }
 
-/*
-Tlacitka
---------
-*/
-
-button,
-input[type=submit],
-input[type=reset] {
-  background: var(--color-text);
-  color: white;
-  border: none;
-  padding: calc(
-    var(--input-padding)
-    + var(--input-border)
-  );
-}
-
-button:hover,
-input[type=submit]:hover,
-input[type=reset]:hover {
-  background: var(--color-alpha);
-}
