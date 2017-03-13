@@ -218,8 +218,10 @@
               </div>
 
               <form class="add-to-card-form">
-                <p class="add-to-card-input m-0 mr-0-5">
-                  <input type="number" class="w-2 ta-r" value="1">&nbsp;ks
+                <p class="add-to-card-input stepper m-0 mr-0-5">
+                  <button class="button stepper-minus">-</button>
+                  <input type="text" pattern="[0-9]*" inputmode="numeric" class="stepper-input w-1 ta-r" value="1">
+                  <button class="button stepper-plus">+</button>
                 </p>
                 <p class="add-to-card-button m-0">
                   <button class="button button-primary">Přidat do košíku</button>
