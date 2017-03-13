@@ -29,6 +29,21 @@
 
   <link rel="stylesheet" href="css/style.css">
 
+  <!-- SVG zdroj pro hvezdy -->
+  <svg class="star-source" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+      <g id="icon-star">
+        <path d="M20.388,10.918L32,12.118l-8.735,7.749L25.914,31.4l-9.893-6.088L6.127,31.4l2.695-11.533L0,12.118
+                 l11.547-1.2L16.026,0.6L20.388,10.918z" />
+      </g>
+      <linearGradient id="halfGradient">
+        <stop stop-opacity="1" offset="50%"
+          stop-color="var(--color-beta)"></stop>
+        <stop stop-opacity="0" offset="50%"></stop>
+      </linearGradient>
+    </defs>
+  </svg>
+
 </head>
 
 <body>
@@ -265,13 +280,39 @@
               Hodnocení produktu zákazníky ForestKid.cz
             </h2>
 
-            <p class="ta-c">
-              <span class="h2 c-beta">✭✭✭✭✭</span><br>
-              <span class="text-small d-ib">
-                Hodnocení produktu zákazníky ForestKid.cz: 95&nbsp;%. <br>
-                (Průměr ze 4&nbsp;hodnocení.)
+            <p class="ta-c c-beta mb-0-25">
+              <span class="star-container">
+                <svg class="star" viewBox="0 0 32 32">
+                  <use xlink:href="#icon-star">
+                </svg>
               </span>
+              <span class="star-container">
+                <svg class="star" viewBox="0 0 32 32">
+                  <use xlink:href="#icon-star">
+                </svg>
+              </span>
+              <span class="star-container">
+                <svg class="star" viewBox="0 0 32 32">
+                  <use xlink:href="#icon-star">
+                </svg>
+              </span>
+              <span class="star-container">
+                <svg class="star" viewBox="0 0 32 32">
+                  <use xlink:href="#icon-star">
+                </svg>
+              </span>
+              <span class="star-container">
+                <svg class="star star-half" viewBox="0 0 32 32">
+                  <use xlink:href="#icon-star">
+                </svg>
+              </use>
             </p>
+
+            <p class="text-small ta-c suppressed">
+              Hodnocení produktu zákazníky ForestKid.cz: 95&nbsp;%. <br>
+              (Průměr ze 4&nbsp;hodnocení.)
+            </p>
+
 
             <dl>
               <dt>
