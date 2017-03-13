@@ -3,13 +3,19 @@ Logo ForestKid.cz
 =================
 */
 
+/*
+Siroke tak, aby bylo texte stejne vysoky jako text
+nejvetsich nadpisu
+*/
 
-
-.logo { }
+.logo {
+  width: 13rem;
+  margin-right: auto;
+  margin-left: auto;
+}
 
 /*
 Pruzne chovani SVG v IE vyzaduje kontejner
-------------------------------------------
 */
 
 
