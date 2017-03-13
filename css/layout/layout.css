@@ -1,6 +1,54 @@
 /*
 Rozvrzeni stranky
 =================
+*/
+
+/*
+Odsazeni od kraje a barvy pozadi
+--------------------------------
+*/
+
+body {
+  background: var(--color-grey-e);
+  padding: .75rem;
+}
+
+.container {
+  max-width: none;
+}
+
+.layout-container {
+  background: white;
+  padding: 1.5rem;
+  border-radius: var(--border-radius);
+}
+
+/* Mensi pro male displeje */
+
+@media only screen and (max-width: 25em) {
+
+  .layout-container {
+     padding: .75rem;
+  }
+
+}
+
+@media only screen and (min-width: 50em) {
+
+  body {
+    padding: 1.5rem;
+  }
+
+}
+
+
+
+
+/*
+Layout na vetsich displejich
+----------------------------
+
+Fotky napravo, obsah nalevo.
 
 .container
   header
@@ -10,35 +58,6 @@ Rozvrzeni stranky
     .layout-main
       .layout-text (text)
       .layout-photos (fotky)
-
-*/
-
-body {
-  background: var(--color-grey-e);
-}
-
-.container {
-  max-width: none;
-}
-
-
-/*
-Mensi displeje
---------------
-*/
-
-.layout-container {
-  background: white;
-  padding: 1.5rem;
-  border-radius: var(--border-radius);
-}
-
-
-/*
-Vetsi displeje
---------------
-
-Fotky napravo, obsah nalevo.
 */
 
 @media only screen and (min-width: 50em) {
