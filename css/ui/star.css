@@ -31,3 +31,11 @@ UI komponenta Hvezdicka pro hodnoceni
   top: 0;
   left: 0;
 }
+
+/* SVG zdroj musime schovat, jinak v prohlizeci dela diru nahore */
+
+.star-source {
+  position: absolute;
+  width: 0;
+  top: 0;
+}
