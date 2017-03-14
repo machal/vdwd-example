@@ -60,18 +60,18 @@ Fotky napravo, obsah nalevo.
       .layout-photos (fotky)
 */
 
-@media only screen and (min-width: 50em) {
+@media only screen and (min-width: 48em) {
 
   .layout-main {
     display: flex;
   }
 
   .layout-text {
-    flex: 1 1 50%;
+    width: 50%;
   }
 
   .layout-photos {
-    flex: 1 1 50%;
+    width: 50%;
   }
 
 }
